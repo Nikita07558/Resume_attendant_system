@@ -1,7 +1,7 @@
 fastapi
 uvicorn
 joblib
-spacy
+spacy==3.7.2
 scikit-learn
 sentence-transformers
 pymupdf
@@ -15,30 +15,6 @@ faiss-cpu
 tiktoken
 requests
 langchain-groq
-spacy==3.7.2
+
+# Include the correct spaCy model for v3.7.2
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
-
-# force using binary wheels only (no compilation from source)
-blis==0.7.11
-
-
-
-fastapi==0.110.2
-uvicorn==0.29.0
-joblib==1.3.2
-spacy==3.7.2
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
-blis==0.7.11
-scikit-learn==1.4.2
-sentence-transformers==2.6.1
-pymupdf==1.23.7
-python-multipart==0.0.9
-langchain==0.1.16
-langchain-community==0.0.32
-langchain-groq==0.0.2
-groq==0.4.1
-python-dotenv==1.0.1
-pypdf==4.2.0
-faiss-cpu==1.8.0
-tiktoken==0.6.0
-requests==2.31.0
