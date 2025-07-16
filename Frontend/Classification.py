@@ -21,7 +21,7 @@ def show_role_classifier():
         return text
 
     def send_to_backend(text):
-        url = "http://localhost:8000/classify"
+        url = "https://resume-attendant-system.onrender.com/classify"
         try:
             res = requests.post(url, json={"text": text})
             if res.status_code == 200:
