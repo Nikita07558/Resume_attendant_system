@@ -22,7 +22,7 @@ def show_jd_skill_matcher():
                     data = {"jd_text": jd_text}
 
                     response = requests.post(
-                        "http://localhost:8000/match_skills",
+                        "https://resume-attendant-system.onrender.com/match_skills",
                         files=files,
                         data=data
                     )
