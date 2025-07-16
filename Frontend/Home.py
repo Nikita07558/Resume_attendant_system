@@ -7,7 +7,6 @@ from Matching import show_jd_skill_matcher
 
 st.set_page_config(page_title="Resume Pro Suite", layout="wide")
 
-# 💅 Inject Custom CSS for fonts and layout
 st.markdown("""
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
@@ -50,7 +49,7 @@ st.markdown('<div class="main-title">📄 Resume Pro Suite</div>', unsafe_allow_
 st.markdown('<div class="sub-title">Your All-in-One Resume Intelligence Toolkit 🚀</div>', unsafe_allow_html=True)
 st.markdown("---")
 
-# 🎨 Sidebar Navigation
+
 st.sidebar.title("🧭 Resume Pro Toolkit")
 st.sidebar.markdown("Navigate between the smart resume tools:")
 
