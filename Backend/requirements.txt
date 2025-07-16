@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+joblib
+spacy
+scikit-learn
+sentence-transformers
+pymupdf
+python-multipart
+langchain
+langchain-community
+groq
+python-dotenv
+pypdf
+faiss-cpu
+tiktoken
+requests
+langchain-groq
