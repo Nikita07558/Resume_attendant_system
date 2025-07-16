@@ -20,7 +20,7 @@ def show_resume_chatbot():
                 try:
                     files = {"file": resume_file}
                     data = {"query": query}
-                    response = requests.post("http://localhost:8000/chat_resume", files=files, data=data)
+                    response = requests.post("https://resume-attendant-system.onrender.com/chat_resume", files=files, data=data)
 
                     if response.status_code == 200:
                         st.success("✅ Answer:")
